@@ -13,7 +13,7 @@ class Calculator
   end
 
   def divide(a, b)
-    2
+    a / b 
   end
 
 end

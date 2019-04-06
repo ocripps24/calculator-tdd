@@ -43,6 +43,11 @@ describe Calculator do
       calc = Calculator.new
       expect(calc.divide(8, 4)).to eq(2)
     end
-  end 
+
+    it "returns the result of dividing two different arguments" do
+      calc = Calculator.new
+      expect(calc.divide(16, 4)).to eq(4)
+    end
+  end
 
 end
