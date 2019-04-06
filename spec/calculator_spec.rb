@@ -55,6 +55,11 @@ describe Calculator do
       calc = Calculator.new
       expect(calc.factorial(0)).to eq(1)
     end
+
+    it "returns 120 when given 5" do
+      calc = Calculator.new
+      expect(calc.factorial(5)).to eq(120)
+    end
   end
 
 end
