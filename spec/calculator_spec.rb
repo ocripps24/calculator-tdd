@@ -31,6 +31,11 @@ describe Calculator do
       calc = Calculator.new
       expect(calc.multiply(5, 5)).to eq(25)
     end
+
+    it "returns the result of multiplying two different arguments" do
+      calc = Calculator.new
+      expect(calc.multiply(8, 8)).to eq(64)
+    end
   end
 
 end

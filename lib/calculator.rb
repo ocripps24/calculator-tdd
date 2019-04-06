@@ -9,7 +9,7 @@ class Calculator
   end
 
   def multiply(a, b)
-    25
+    a * b
   end
 
 end
