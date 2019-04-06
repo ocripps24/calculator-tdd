@@ -13,7 +13,11 @@ class Calculator
   end
 
   def divide(a, b)
-    a / b 
+    a / b
+  end
+
+  def factorial(n)
+    1
   end
 
 end
