@@ -38,4 +38,11 @@ describe Calculator do
     end
   end
 
+  describe '#divide' do
+    it "returns the result of dividing its arguments" do
+      calc = Calculator.new
+      expect(calc.divide(8, 4)).to eq(2)
+    end
+  end 
+
 end

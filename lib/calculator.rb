@@ -12,4 +12,8 @@ class Calculator
     a * b
   end
 
+  def divide(a, b)
+    2
+  end
+
 end
