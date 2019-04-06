@@ -14,4 +14,10 @@ describe Calculator do
     end
   end
 
+  describe '#subtract'
+    it "returns the result of subtracting a number from another" do
+      calc = Calculator.new
+      expect(calc.subtract(5, 1)).to eq(4)
+    end
+
 end
