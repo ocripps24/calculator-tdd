@@ -1,7 +1,7 @@
 class Calculator
 
   def add(a, b)
-    15
+    a + b 
   end
 
 end
