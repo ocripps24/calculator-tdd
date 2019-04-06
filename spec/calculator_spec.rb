@@ -14,7 +14,7 @@ describe Calculator do
     end
   end
 
-  describe '#subtract'
+  describe '#subtract' do
     it "returns the result of subtracting its two arguments" do
       calc = Calculator.new
       expect(calc.subtract(5, 1)).to eq(4)
@@ -24,5 +24,6 @@ describe Calculator do
       calc = Calculator.new
       expect(calc.subtract(6,3)).to eq(3)
     end
+  end
 
-end
+end 
