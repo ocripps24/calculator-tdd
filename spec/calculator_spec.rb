@@ -26,4 +26,11 @@ describe Calculator do
     end
   end
 
-end 
+  describe '#multiply' do
+    it "returns the result of multiplying its two arguments" do
+      calc = Calculator.new
+      expect(calc.multiply(5, 5)).to eq(25)
+    end
+  end
+
+end
